@@ -1,0 +1,23 @@
+
+.navbar-default{
+    background-color: white;
+    border: white;
+}
+.jumbotron{
+    background-color: white;
+    padding-top: 10px;
+}
+.content-img{
+    padding-top: 100px;
+}
+.navbar-right{
+   padding-right: 50px;
+}
+.detail{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}

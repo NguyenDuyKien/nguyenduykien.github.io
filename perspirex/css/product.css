@@ -1,0 +1,20 @@
+em{
+    text-align: center;
+    color: #1e97fa;
+}
+strong{
+    color: #1e97fa;
+}
+h3{
+    text-align: left;
+    text-transform: uppercase;
+}
+p{
+    text-align: left;
+}
+.image-list {
+    max-width: 120px;
+    min-width: 92px;
+    height: auto;
+    padding: auto;
+}
