@@ -332,6 +332,13 @@ li{
 	border: 7px solid #ebebeb;
 	margin: 0 7.5px 25px 7.5px;
 }
+.col-5:hover{
+	 -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
 .col-firt{
 	margin-left: 0;
 }
