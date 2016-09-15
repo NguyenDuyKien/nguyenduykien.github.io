@@ -16,6 +16,28 @@ body{
     font-size: 14px;
     color: #626262;
 }
+a{color: #626262;}
+a:hover{color: #626262}
+p{text-align: justify;}
+.post{
+    padding-top: 50px;
+}
+.item{
+    padding-bottom: 50px;
+}
+.icon{
+    padding-left: 10px;
+}
+.also{
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.more{
+    margin: auto;
+    padding-top: 30px;
+}
+
 .sign-up{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -35,11 +57,7 @@ body{
 .nav>li>a {
     padding:10px 50px;
 }
-@media(min-width: 1200px){
-    .container{
-        width: 1062px;
-    }
-}
+
 .navbar-fix{
     background-color: white;
     border: none;
@@ -51,9 +69,37 @@ body{
     color: #626262;
     font-size: 14px;
 }
+.navbar-default .navbar-nav>li>a:hover{
+  text-decoration: underline;
+}
 .navbar-default .navbar-brand{
     text-transform: uppercase;
     color: #000000;
     font-size: 30px;
     font-family: 'Inconsolata', Serif;
+}
+section img:hover{
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+     -webkit-transition-duration: 2s; /* Safari */
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.email{
+    border-bottom: 2px solid #626262;
+}
+.arrow{
+    position: absolute;
+    top: 11px;
+    right: 7px;
+}
+i:hover{cursor: pointer;}
+textarea{max-width: 100%}
+@media(min-width: 1200px){
+    .container{
+        width: 1062px;
+    }
 }
