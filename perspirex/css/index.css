@@ -18,6 +18,21 @@
     font-weight: bold;
     text-align: center;
 }
+.logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    z-index: 4;
+}
 p{
     font-size: 16px;
+}
+@media screen and (max-width: 425px) {
+
+    .logo {
+        display: none;
+    }
+
 }
